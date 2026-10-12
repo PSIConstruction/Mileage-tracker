@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psi-mileage"
+version = "0.1.0"
+description = "Accurate vehicle mileage from raw phone GPS via map matching"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+mileage = "mileage.cli:main"
+
+[tool.setuptools]
+packages = ["mileage"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
