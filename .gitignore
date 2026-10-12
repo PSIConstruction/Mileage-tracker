@@ -1,0 +1,6 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+# Real trip data contains employee locations: keep it out of git.
+trips/

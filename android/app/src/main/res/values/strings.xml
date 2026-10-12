@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PSI Mileage</string>
+    <string name="channel_name">Trip recording</string>
+    <string name="notification_title">Recording trip</string>
+</resources>
